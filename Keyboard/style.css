@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(214, 214, 214);
+}
+
+.keyboard_box{
+    margin: 160px 150px 0px;
+}
+
+.row{
+    width: 100%;
+    height: 60px;
+}
+
+.one, .two, .three, .four, .fifth{
+    margin: 10px 0px 0px 0px;
+}
+
+button{
+    width: 55px;
+    height: 55px;
+    border: none;
+    background-color: rgba(214, 214, 214);
+    box-shadow: 5px 5px 5px #474343, -5px -5px 10px #fff;
+    border-radius: 10px;
+    font-family: poppins, sans-serif;
+    font-size: 20px;
+    margin-left: 5px;
+    outline: none;
+}
+button:active{
+    box-shadow: 1px 1px 2px #fff8f8, -1px -1px 2px #474343;
+}
+
+.back, .shift, .enter{
+    width: 115px;
+    border-radius: 10px;
+}
+
+.tab, .caps, .slace, .fifth_line{
+    width: 90px;
+    border-radius: 10px;
+}
+
+.space{
+    width: 350px;
+    border-radius: 10px;
+}
